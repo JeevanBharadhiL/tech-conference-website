@@ -1,0 +1,41 @@
+/* src/app.css */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Root Variables for Corporate Theme */
+:root {
+  --bg-primary: #ffffff; /* White background */
+  --text-primary: #333333; /* Dark gray text */
+  --text-secondary: #6c757d; /* Light gray text */
+  --accent: #007bff; /* Bootstrap blue */
+  --card-bg: #f8f9fa; /* Light gray for cards */
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --transition: all 0.3s ease;
+}
+
+/* Dark Mode */
+[data-theme="dark"] {
+  --bg-primary: #1a1a1a;
+  --text-primary: #ffffff;
+  --text-secondary: #b3b3b3;
+  --card-bg: #2b2b2b;
+  --accent: #0069d9;
+}
+
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0 2rem;
+  flex: 1;
+}
