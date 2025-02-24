@@ -22,4 +22,4 @@ A fictional tech conference website built with SvelteKit and Sveltestrap for a f
 - Preview with `npm run preview`
 
 ## Submission
-Submitted by [Your Name] on February 24, 2025.
+Submitted by [Your Name] on February 24, 2025.# tech-conference-website
